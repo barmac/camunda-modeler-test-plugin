@@ -16,7 +16,9 @@ Package plugin to `dist/camunda-modeler-test-plugin`:
 
 ```sh
 npm run build
-
+```
+or
+```sh
 npm run dev
 ```
 
