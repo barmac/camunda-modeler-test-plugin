@@ -1,0 +1,31 @@
+{
+  "name": "camunda-modeler-test-plugin",
+  "version": "0.1.0",
+  "description": "A test plugin for Camunda Modeler",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -c ./webpack.config.js",
+    "dev": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camunda/camunda-modeler-test-plugin.git"
+  },
+  "keywords": [
+    "camunda",
+    "modeler",
+    "plugin"
+  ],
+  "author": "Maciej Barelkowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camunda/camunda-modeler-test-plugin/issues"
+  },
+  "homepage": "https://github.com/camunda/camunda-modeler-test-plugin#readme",
+  "devDependencies": {
+    "camunda-modeler-plugin-helpers": "^3.0.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1"
+  }
+}

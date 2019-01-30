@@ -1,0 +1,11 @@
+{
+  "name": "TestAll",
+  "uri": "http://test-all/schema/bpmn/test-all",
+  "prefix": "test-all",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "types": [],
+  "emumerations": [],
+  "associations": []
+}
